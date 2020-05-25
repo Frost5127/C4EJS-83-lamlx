@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework - Day 3</title>
+</head>
+
+<body>
+
+</body>
+
+<script>
+    let name = "Le Xuan Lam";
+    let lop = "C4EJS83";
+    console.log(name);
+    console.log(lop);
+</script>
+
+<!-- bai 1 -->
+<!-- <script>
+    let cauThu = ["Ronaldo", "Messi", "Neymar"];
+    console.log("Danh sach cau thu: " + cauThu);
+    let themCauThu = prompt("Ban co muon nhap them cau thu khong (Y/N)?");
+    switch (themCauThu){
+        case "Y":
+            let cauThuNhapVao = prompt("Ban muon them cau thu nao? ");
+            cauThu.push(cauThuNhapVao);
+            console.log("Danh sach cau thu moi: " + cauThu);
+            break;
+        case "N":
+            console.log("Goodbye!");
+            break;
+        default:
+            console.log("Ban da nhap sai! Moi nhap lai!");          
+    }
+</script> -->
+
+<!-- bai 2 -->
+<!-- <script>
+    let brandMoto = ["Honda", "Suzuki", "Yamaha", "Kawasaki", "Ducati", "Triumph"];
+    for (let i = 0; i < brandMoto.length; i++) {
+        if (brandMoto[i] == "Ducati"){
+            console.log(brandMoto[i]);
+        }
+    }
+</script> -->
+
+<!-- bai 3 -->
+<!-- <script>
+    let brandAuto = ["Audi", "Bentley", "BMW", "Bugatti", "Ferrari", "Ford"];
+    console.log("Cac hang oto duoc liet ke: ");
+    for (let i=0; i < brandAuto.length; i++){
+        console.log(i+1 + ". " + brandAuto[i]);
+    }
+</script> -->
+
+<!-- bai 4 -->
+<!-- <script>
+    let cauThu = ["Ronaldo", "Messi", "Neymar"];
+    console.log("Danh sach cau thu: " + cauThu);
+    let doiTen = prompt("Ban co muon doi ten cau thu khong (Y/N)?");
+    if (doiTen == "Y") {
+        let viTriThayDoi = prompt("Nhap vao vi tri cau thu muon thay doi(0, 1, 2): ");
+        let cauThuMoi = prompt("Nhap vao ten cau thu moi: ");
+        cauThu[viTriThayDoi] = cauThuMoi;
+        console.log("Danh sach cau thu da thay doi: " + cauThu);
+    } else {
+        console.prompt("Goodbye!!!");
+    }
+</script> -->
+
+<!-- bai 5 -->
+<!-- <script>
+    let cauThu = ["Ronaldo", "Messi", "Neymar"];
+    console.log("Danh sach cau thu: " + cauThu);
+    let xoaCauThu = prompt("Ban muon xoa cau thu khong? (Y/N)");
+    if (xoaCauThu == "Y") {
+        let cauThuXoa = prompt("Nhap vao vi tri cau thu muon xoa(0, 1, 2): ");
+        cauThu.splice(cauThuXoa, 1);
+        console.log("Danh sach cau thu da thay doi: " + cauThu);
+    } else {
+        console.log("Goodbye!!!");
+    }
+</script> -->
+
+<!-- bai 6 -->
+<!-- <script>
+    let items = ["T-Shirt", "Sweater"];
+    let yeuCau = prompt("Welcome to our shop, what do you want (C, R, U, D)");
+    if (yeuCau == "R") {
+        console.log("Our items: ");
+        for (let i = 0; i < items.length; i++) {
+            console.log(i + 1 + ". " + items[i]);
+        }
+    } else if (yeuCau == "C") {
+        let newItems = prompt("Enter new items: ");
+        items.push(newItems);
+        console.log("Our items: ");
+        for (let i = 0; i < items.length; i++) {
+            console.log(i + 1 + ". " + items[i]);
+        }
+    } else if (yeuCau == "U") {
+        let updateItem = prompt("Update possition?");
+        let newChange = prompt("New items?");
+        items[updateItem] = newChange;
+        console.log("Out Items: ");
+        for (let i = 0; i < items.length; i++) {
+            console.log(i + 1 + ". " + items[i]);
+        }
+    } else if (yeuCau == "D") {
+        let deleteItem = prompt("Delete position?");
+        items.splice(deleteItem, 1);
+        console.log("Out Items: ");
+        for (let i = 0; i < items.length; i++) {
+            console.log(i + 1 + ". " + items[i]);
+        }
+    } else {
+        console.log("Ban da nhap sai. Moi nhap lai!");
+    }
+</script> -->
+
+<!-- bai 7 -->
+<!-- <script>
+    let fruit = ["Banana", "Orange", "Apple", "Mango"];
+    console.log(fruit[1]);
+    fruit.push("Lemon");
+    console.log("So phan tu cua mang: " + fruit.length);
+    console.log("Danh sach mang: ");
+    for (let i = 0; i < fruit.length; i++) {
+            console.log(i + 1 + ". " + fruit[i]);
+        }
+    fruit.splice(0, 1);
+    console.log("Mang sau khi xoa: " + fruit);
+    fruit.pop();
+    console.log("Mang sau khi xoa: " + fruit);
+    fruit.shift();
+    console.log("Mang sau khi xoa: " + fruit);
+    let str = fruit.join("; ")
+    console.log("In ra mang voi join: " + str);
+</script> -->
+
+<!-- bai 8 -->
+<!-- <script>
+    let mang1 = ["Cecilie", "Lone"];
+    console.log("Mang 1: " + mang1);
+    let mang2 = ["Emil", "Tobias", "Linus"];
+    console.log("Mang 2: " + mang2);
+    let mang3 = ["Robin", "Morgan"];
+    console.log("Mang 3: " + mang3);
+    sumMang = mang1.concat(mang2, mang3);
+    console.log("Mang da ghep: " + sumMang);
+</script> -->
+
+<!-- bai 9 -->
+<!-- <script>
+    let fruit = ["Banana", "Orange", "Apple", "Mango"];
+    console.log("Mang ban dau: " + fruit);
+    fruit.sort();
+    console.log("Mang sap xep tu a-z: " + fruit);
+    fruit.reverse();
+    console.log("Mang sap xep tu z-a: " + fruit);
+</script> -->
+
+<!-- bai 10 -->
+<!-- <script>
+    let fruits = ["Banana", "Orange", "Apple", "Mango"];
+    console.log("Mang ban dau: " + fruits);
+    let fruitsNew = fruits;
+    fruitsNew.splice();
+    console.log("Mang moi: " + fruitsNew);
+    let fruitsLast = fruits;
+    fruitsLast.splice(2, 2, "Lemon", "Kiwi");
+    console.log("Mang sau cung: " + fruitsLast);
+</script> -->
+
+</html>
